@@ -1,0 +1,35 @@
+<form action  = "/formprocess.php" method = "post">
+    <p>帳號:<input type = "text" maxlength = "12" minlength = "3" size = "12" placeholder = "請輸入帳號"></p>
+    <p>密碼:<input type = "password" maxlength = "12" minlength = "3" size = "12" placeholder = "請輸入密碼"></p>
+    <p>請選擇你喜歡的水果: (可複選)</p>
+    <input type = "checkbox" name = "like" value = "apple" > 蘋果 <br>
+    <input type = "checkbox" name = "like" value = "banana" > 香蕉 <br>
+    <input type = "checkbox" name = "like" value = "pineapple" > 鳳梨 <br>
+    <input type = "checkbox" name = "like" value = "strawberry" > 草莓 <br>
+    <p>請選擇飲料的甜度: </p>
+    <input type = "radio" name = "suger" value = "full" > 全糖 <br>
+    <input type = "radio" name = "suger" value = "half" > 半糖 <br>
+    <input type = "radio" name = "suger" value = "bit" > 微糖 <br>
+    <p>請填寫以下基本資料: </p>
+    <p>姓名:<input type = "text"><br></p>
+    <p>電話:<input type = "tel"><br></p>
+    <p>郵件:<input type = "email"><br></p>
+    <p>網址:<input type = "url"><br></p>
+    <p>請選擇你的生日: </p>
+    <input type = "date" value = "2023-12-31" min = "0-1-1" max = "9999-12-31" step = "5">
+    <input type = "time" value = "6:00" min = "0:00" max = "23:59" step = "5"><br>
+    <input type = "reset" value = "Reset"><br>
+    <input type = "submit" value = "Submit"><br>
+    <p>請上傳你的圖片檔案: </p>
+    <input type = "file" accept = "image/*,.pdf" name = "選擇檔案"><br>
+    <textarea rows = "6" cols = "40" required>我是多行輸入框......</textarea><br>
+    <select>
+        <option>請選擇你最愛的動物</option>
+        <option>Dog</option>
+        <option selected>Cat</option>
+        <option>Hamster</option>
+        <option>Parrot</option>
+        <option disabled>Spider</option>
+        <option>Goldfish</option>
+    </select>
+</form>
