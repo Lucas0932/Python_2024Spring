@@ -1,0 +1,17 @@
+<form action  = "/formprocess.php" method = "post">
+    <p>Name:</p>
+    <p><input type = "text" maxlength = "12" minlength = "3" size = "12" placeholder = "你的名字"></p>
+    <p>Email:</p>
+    <p><input type = "text" maxlength = "12" minlength = "3" size = "12"></p>
+    <p>Comments:</p>
+    <textarea rows = "5" cols = "20" required>你的留言</textarea><br>
+    <p>Birthday and time:</p>
+    <input type = "date" value = "2023-12-31" min = "0-1-1" max = "9999-12-31" step = "5">
+    <input type = "time" value = "6:00" min = "0:00" max = "23:59" step = "5"><br>
+    <p>請問你最有興趣學習的技術:</p>
+    <input type = "radio" name = "HTML" value = "HTML" > HTML <br>
+    <input type = "radio" name = "CSS" value = "CSS" > CSS <br>
+    <input type = "radio" name = "JavaScript" value = "JaveScript" > JavaScript <br>
+    <input type = "submit" value = "送出資料"><br>
+    <input type = "reset" value = "重新填寫"><br>
+</form>
