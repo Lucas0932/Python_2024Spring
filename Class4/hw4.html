@@ -1,0 +1,32 @@
+<form action  = "/formprocess.php" method = "post">
+<html>
+    <head>
+        <link href = "C:/Users/Lucas/OneDrive/Desktop/Python/Python_2024春季班/Class4/styles/hw4.css" rel = "stylesheet" type = "text/css"/>
+        <title>我的網頁標題</title>
+    </head>
+    <h1 id = "title">2024 前端春季班 課程心得表單</h1>
+    <h4 id = "color">*About You*</h4>
+    <p>Name: </p>
+    <p><input type = "text" placeholder = "你的名字"><br></p>
+    <p>Email: </p>
+    <p><input type = "email" placeholder = "你的信箱"><br></p>
+    <p>Birthday and time: </p>
+    <input type = "date" value = "2023-12-31" min = "0-1-1" max = "9999-12-31" step = "5">
+    <input type = "time" value = "6:00" min = "0:00" max = "23:59" step = "5"><br>
+    <hr>
+    <h4 id = "color">*About Course*</h4>
+    <p><strong>請勾選目前春季班還聽不懂的課程內容: </strong></p>
+    <input type = "checkbox" name = "dk" value = "1" > Class1: HTML 基本介紹與元素 <br>
+    <input type = "checkbox" name = "dk" value = "2" > Class1: HTML 圖片列表與表格 <br>
+    <input type = "checkbox" name = "dk" value = "3" > Class1: HTML 表單與輸入類型 <br>
+    <p><strong>請勾選你最有興趣學習的技術: </strong></p>
+    <input type = "radio" name = "like" value = "1" > HTML <br>
+    <input type = "radio" name = "like" value = "2" > CSS <br>
+    <input type = "radio" name = "like" value = "3" > JavaScript <br>
+    <hr>
+    <h4 id = "color">*Comments*</h4>
+    <textarea rows = "5" cols = "20" placeholder = "你的留言"></textarea><br>
+    <input type = "reset" value = "重新填寫" id = "button">
+    <input type = "submit" value = "送出資料" id = "button">
+</form>
+</html>

@@ -1,0 +1,30 @@
+h3, p {
+    color : gray;
+}
+#my-id {
+    color : lightcoral;
+}
+#my-love {
+    color : lightblue;
+}
+.urgent {
+    color : darkgreen;
+}
+h1 {
+    color : red;
+}
+#yay {
+    border-color : darkviolet;
+    background-color : lightcyan;
+    color : darkgreen;
+}
+p {
+    background-color : yellowgreen;
+}
+body {
+    background-color : whitesmoke;
+    background-image : url("YAY.png");
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    background-position: left bottom;
+}
